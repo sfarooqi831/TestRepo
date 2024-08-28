@@ -1,0 +1,19 @@
+{
+	"properties": [
+		{
+			"name": "app.screet-key",
+			"type": "java.lang.String",
+			"description": "This key will be used for generating the token."
+		},
+		{
+			"name": "Spring.jpa.properties.hibernate.format_sql",
+			"type": "java.lang.String",
+			"description": "This will display the plain SQL query on the console."
+		},
+		{
+			"name": "app.token-issuer",
+			"type": "java.lang.String",
+			"description": "This key indicates the issuer that generated the token."
+		}
+	]
+}
