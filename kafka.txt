@@ -1,0 +1,35 @@
+What is data?
+Why data is important?
+Data Sources?
+Event Stream 
+Data use cases
+What is publisher & subscriber.
+What is message.
+What Event driven microservices?
+What are the listeners?
+What is the communication type?
+What is group Id? 
+What is replication factor?
+What is topic?
+What is offset?
+What is DLT?
+---
+Data is very important.
+Event stream is practice the capturing the data from event stream.(database , mobile devices, software).
+Storing the data for next operation.
+Appache kafak is a centralized application which is used to transfer data from one application to another applicaiton(s). it works on publisher/prodcuer subscriber/cossumers model. it can  process high data in less time.
+  conisider a use case 
+     A User use A application and needs to send the data to the following apps [ Creating the pipipline is a chalanging task] -- FB ,Insta , Youtue , Linkdn, Gmail
+Mesage Quees are important for managing the data.
+Publisher : is the applicaiton which stores the data in Message Quees.
+subscriber: is the applicaiton which takes from the data from Message Quees.
+Message: is stream of data. Data can be in any format.
+Event Driven Microservices: Are those microservices in which the other api works based on the event.
+listeners:- are the entities which are listening the data continously.
+Communications are the two types * Topic  * Quee
+Group Id: is used to identify the group of consumers
+Replication factor: is the number of copies you want to consume. 
+Topic: specifies the category of the message. it is just like a table in the database. Topic can be created using the properites file or using the command line INTERFACE.
+Partition: is the key aspect of the kafka-ecosystem.
+offset:- is the indexed is the Partition.
+DLT: In Apache Kafka, DTL typically stands for Dead Letter Topic (DLT). It is a concept used to handle messages that cannot be processed successfully by consumers. 
