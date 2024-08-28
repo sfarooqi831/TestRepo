@@ -1,7 +1,0 @@
-
-# Batch processing Properties
-spring:
-   batch:
-     jdbc:
-      initialize-schema: never
-
